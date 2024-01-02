@@ -1,0 +1,880 @@
+{
+  "questions": [
+    {
+      "question": "What is the syntax to declare a variable in JavaScript?",
+      "options": [
+        "var variableName;",
+        "variableName = value;",
+        "let variableName = value;",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "Variables can be declared using 'var', 'let', or 'const' in JavaScript.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 3
+    },
+    {
+      "question": "Which operator is used for strict equality comparison in JavaScript?",
+      "options": ["==", "===", "=", "!="],
+      "answer": "===",
+      "explanation": "The '===' operator checks for strict equality without type coercion.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "What is the purpose of 'console.log()' in JavaScript?",
+      "options": [
+        "To display output in the browser console",
+        "To log errors",
+        "To stop execution of code",
+        "To create an alert box"
+      ],
+      "answer": "To display output in the browser console",
+      "explanation": "'console.log()' is used to display output, typically for debugging purposes.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "Which function is used to convert a string to an integer in JavaScript?",
+      "options": [
+        "parseInt()",
+        "stringToInt()",
+        "toInteger()",
+        "convertToInt()"
+      ],
+      "answer": "parseInt()",
+      "explanation": "'parseInt()' is used to parse a string and return an integer.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What does 'NaN' stand for in JavaScript?",
+      "options": [
+        "Not a Null",
+        "Null and None",
+        "Negative Association Node",
+        "Not a Number"
+      ],
+      "answer": "Not a Number",
+      "explanation": "'NaN' stands for 'Not a Number' and represents an invalid number.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 3
+    },
+    {
+      "question": "What is the purpose of 'typeof' operator in JavaScript?",
+      "options": [
+        "To check if a variable is defined",
+        "To determine the type of a value or variable",
+        "To convert types",
+        "To compare values"
+      ],
+      "answer": "To determine the type of a value or variable",
+      "explanation": "'typeof' is used to determine the data type of a value or variable.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "Which of the following is not a primitive data type in JavaScript?",
+      "options": ["boolean", "string", "number", "array"],
+      "answer": "array",
+      "explanation": "Arrays are objects in JavaScript.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 3
+    },
+    {
+      "question": "What does the “typeof” operator do in JavaScript?",
+      "options": [
+        "Returns the type of a variable or expression",
+        "Returns the type of a function",
+        "Returns the type of an object",
+        "Returns the type of an array"
+      ],
+      "answer": "Returns the type of a variable or expression",
+      "explanation": "The typeof operator returns a string indicating the type of the unevaluated operand.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "Which of the following is not a comparison operator in JavaScript?",
+      "options": ["===", "==", "!==", "!="],
+      "answer": "===",
+      "explanation": "The === operator is a strict equality operator, which means that it will only evaluate to true if both operands are of the same type and the contents match.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+
+    {
+      "question": "What does the 'NaN' stand for in JavaScript?",
+      "options": [
+        "Not a Number",
+        "No Assignment Needed",
+        "Null and None",
+        "Numeric Association Node"
+      ],
+      "answer": "Not a Number",
+      "explanation": "'NaN' stands for 'Not a Number' in JavaScript.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What is the output of the following code snippet?\n\n```javascript\nconsole.log(0.1 + 0.2 === 0.3);\n```",
+      "options": ["true", "false", "undefined", "NaN"],
+      "answer": "false",
+      "explanation": "In JavaScript, 0.1 + 0.2 does not exactly equal 0.3 due to floating-point precision issues.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "What is the difference between 'undefined' and 'null' in JavaScript?",
+      "options": [
+        "They are equivalent",
+        "'undefined' represents an absence of a value while 'null' is an assigned value",
+        "'undefined' is a primitive type and 'null' is an object",
+        "There is no difference between them"
+      ],
+      "answer": "'undefined' represents an absence of a value while 'null' is an assigned value",
+      "explanation": "'undefined' means a variable has been declared but not defined, while 'null' is an assigned value.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+      "options": [
+        "To enable JavaScript's strict mode",
+        "To allow unrestricted access to all JavaScript features",
+        "To disable error messages in the console",
+        "To enforce secure coding practices"
+      ],
+      "answer": "To enable JavaScript's strict mode",
+      "explanation": "'use strict' enables strict mode, catching common coding errors and making code optimizations.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A function's ability to access and remember its outer function's scope even after the outer function finishes executing",
+        "A type of loop in JavaScript",
+        "A method to close and terminate functions",
+        "A way to define private variables in JavaScript"
+      ],
+      "answer": "A function's ability to access and remember its outer function's scope even after the outer function finishes executing",
+      "explanation": "Closures allow functions to retain access to their outer scope's variables even after execution.",
+      "difficulty": "hard",
+      "points": "20",
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What is the 'this' keyword in JavaScript?",
+      "options": [
+        "It refers to the current function where 'this' is used",
+        "It refers to the global object",
+        "It refers to the parent object of the current object",
+        "It refers to the object on which the current method is invoked"
+      ],
+      "answer": "It refers to the object on which the current method is invoked",
+      "explanation": "'this' refers to the object on which the method is invoked at runtime.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "JavaScript",
+      "correctOption": 3
+    },
+    {
+      "question": "What is the purpose of the 'async' and 'await' keywords in JavaScript?",
+      "options": [
+        "To create asynchronous functions",
+        "To manage errors in asynchronous code",
+        "To improve performance of synchronous functions",
+        "To control loop iterations"
+      ],
+      "answer": "To create asynchronous functions",
+      "explanation": "'async' and 'await' are used to write asynchronous code in a synchronous manner.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "What is the difference between 'var', 'let', and 'const' in JavaScript?",
+      "options": [
+        "'var' has function scope, 'let' has block scope, and 'const' creates a constant variable",
+        "They are all identical and can be used interchangeably",
+        "'let' creates immutable variables, 'const' is used for loops, and 'var' is deprecated",
+        "'let' is used for global variables, 'const' creates constants, and 'var' is for local variables"
+      ],
+      "answer": "'var' has function scope, 'let' has block scope, and 'const' creates a constant variable",
+      "explanation": "'var' has function scope, 'let' has block scope, and 'const' creates constants.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What does the 'typeof' operator return for 'null' in JavaScript?",
+      "options": ["'null'", "'object'", "'undefined'", "'primitive'"],
+      "answer": "'object'",
+      "explanation": "The 'typeof' operator returns 'object' for 'null' due to a historical bug in JavaScript.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "What is the purpose of the 'Map' object in JavaScript?",
+      "options": [
+        "To store key-value pairs and maintain insertion order",
+        "To perform arithmetic operations",
+        "To create arrays",
+        "To format strings"
+      ],
+      "answer": "To store key-value pairs and maintain insertion order",
+      "explanation": "A 'Map' object is a collection of key-value pairs that retains the original insertion order.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What is the difference between '== and '===' operators in JavaScript?",
+      "options": [
+        "'==' compares values without type conversion, '===' compares values and types",
+        "'==' is used for strict comparison, '===' is used for loose comparison",
+        "'==' performs deep comparison, '===' performs shallow comparison",
+        "'==' and '===' operators are identical"
+      ],
+      "answer": "'==' compares values without type conversion, '===' compares values and types",
+      "explanation": "'==' performs type coercion before comparison, while '===' checks values and types strictly.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What is the difference between 'let' and 'var' in JavaScript?",
+      "options": [
+        "'let' has block scope, 'var' has function scope",
+        "'let' is used for loops, 'var' is for global variables",
+        "'let' creates constants, 'var' creates mutable variables",
+        "'let' and 'var' are interchangeable"
+      ],
+      "answer": "'let' has block scope, 'var' has function scope",
+      "explanation": "'let' is block-scoped, meaning it's limited to the block it's declared in, while 'var' is function-scoped.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What is a higher-order function in JavaScript?",
+      "options": [
+        "A function that takes another function as an argument or returns a function",
+        "A function with multiple parameters",
+        "A function that performs arithmetic operations",
+        "A function that always returns 'true'"
+      ],
+      "answer": "A function that takes another function as an argument or returns a function",
+      "explanation": "Higher-order functions either take functions as arguments or return them.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What does 'NaN' stand for in JavaScript?",
+      "options": [
+        "Not a Number",
+        "Null and None",
+        "Negative Absolute Number",
+        "No Assignment Needed"
+      ],
+      "answer": "Not a Number",
+      "explanation": "'NaN' stands for 'Not a Number' and is a special value in JavaScript.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "How can you prevent modifications to an object in JavaScript?",
+      "options": [
+        "Using 'seal'",
+        "Using 'freeze'",
+        "Using 'preventModification'",
+        "Objects cannot be made immutable"
+      ],
+      "answer": "Using 'freeze'",
+      "explanation": "'Object.freeze()' prevents modifications to an object, making it immutable.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "What is the purpose of the 'this' keyword in JavaScript?",
+      "options": [
+        "It refers to the object on which the method is invoked",
+        "It refers to the current function where 'this' is used",
+        "It refers to the global object",
+        "It refers to the parent object of the current object"
+      ],
+      "answer": "It refers to the object on which the method is invoked",
+      "explanation": "'this' refers to the object on which the method is invoked at runtime.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What does the '||' operator do in JavaScript?",
+      "options": [
+        "Logical AND",
+        "Logical OR",
+        "Equality comparison",
+        "Exclusive OR (XOR)"
+      ],
+      "answer": "Logical OR",
+      "explanation": "The '||' operator performs a logical OR operation.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "What is a callback function in JavaScript?",
+      "options": [
+        "A function passed as an argument to another function, to be executed later",
+        "A function used to handle errors",
+        "A function that calls itself recursively",
+        "A function used for arithmetic calculations"
+      ],
+      "answer": "A function passed as an argument to another function, to be executed later",
+      "explanation": "A callback function is passed as an argument and executed at a later time.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What is the purpose of the 'Array.map()' method in JavaScript?",
+      "options": [
+        "To check if an element exists in an array",
+        "To create a new array by transforming each element",
+        "To remove the last element from an array",
+        "To concatenate two arrays"
+      ],
+      "answer": "To create a new array by transforming each element",
+      "explanation": "'Array.map()' creates a new array by transforming each element based on a provided function.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 1
+    },
+    {
+      "question": "What does the 'spread' operator ('...') do in JavaScript?",
+      "options": [
+        "It merges objects",
+        "It concatenates arrays",
+        "It spreads elements of an iterable like arrays or strings",
+        "It deletes elements from an array"
+      ],
+      "answer": "It spreads elements of an iterable like arrays or strings",
+      "explanation": "The 'spread' operator expands elements of an iterable (like arrays or strings) into individual elements.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 2
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "options": [
+        "A function's ability to access and remember its outer function's scope even after the outer function finishes executing",
+        "A method to close and terminate functions",
+        "A way to define private variables in JavaScript",
+        "A loop inside a function"
+      ],
+      "answer": "A function's ability to access and remember its outer function's scope even after the outer function finishes executing",
+      "explanation": "Closures allow functions to retain access to their outer scope's variables even after execution.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "JavaScript",
+      "correctOption": 0
+    },
+    {
+      "question": "What is JSX in React?",
+      "options": [
+        "A syntax extension for JavaScript",
+        "A native JavaScript method",
+        "A component lifecycle method",
+        "A built-in React function"
+      ],
+      "answer": "A syntax extension for JavaScript",
+      "explanation": "JSX is a syntax extension used in React to write HTML-like code within JavaScript.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "What is a component in React?",
+      "options": [
+        "A reusable piece of code that describes the user interface",
+        "A built-in JavaScript function",
+        "A conditional statement",
+        "A DOM element"
+      ],
+      "answer": "A reusable piece of code that describes the user interface",
+      "explanation": "A component in React is a reusable building block that describes a part of the UI.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "How do you create a React component?",
+      "options": [
+        "Using the 'class' keyword",
+        "Using HTML elements",
+        "Using 'import' statements",
+        "All of the above"
+      ],
+      "answer": "Using the 'class' keyword",
+      "explanation": "Components can be created using ES6 classes in React.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "What is state in React?",
+      "options": [
+        "A reserved keyword in React",
+        "An object used to store data within a component",
+        "A method to update props",
+        "An event handler"
+      ],
+      "answer": "An object used to store data within a component",
+      "explanation": "State is an object that holds data and determines a component's behavior.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "What lifecycle method is used for making API calls in React?",
+      "options": [
+        "componentWillMount()",
+        "componentDidMount()",
+        "componentDidUpdate()",
+        "componentWillUnmount()"
+      ],
+      "answer": "componentDidMount()",
+      "explanation": "'componentDidMount()' is used for performing tasks after a component is mounted.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "What is the virtual DOM in React?",
+      "options": [
+        "An alternative to HTML",
+        "A representation of the actual DOM in memory",
+        "A JavaScript object storing HTML elements",
+        "A tool for creating UI components"
+      ],
+      "answer": "A representation of the actual DOM in memory",
+      "explanation": "The virtual DOM is a lightweight copy of the actual DOM used for performance optimization.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "What is the purpose of 'props' in React?",
+      "options": [
+        "To store component's state",
+        "To pass data from parent to child components",
+        "To handle component rendering",
+        "To define component structure"
+      ],
+      "answer": "To pass data from parent to child components",
+      "explanation": "'props' are used to pass data from parent components to their children in React.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "What is the role of 'key' in React lists?",
+      "options": [
+        "A reserved word for defining event keys",
+        "An index used for sorting",
+        "A unique identifier for list items",
+        "A method to access array elements"
+      ],
+      "answer": "A unique identifier for list items",
+      "explanation": "'key' is a special attribute used to identify list items in React and optimize rendering.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 2
+    },
+    {
+      "question": "What is the function of 'setState()' in React?",
+      "options": [
+        "To update the component's state",
+        "To modify props directly",
+        "To define component behavior",
+        "To render child components"
+      ],
+      "answer": "To update the component's state",
+      "explanation": "'setState()' is used to update the state of a component in React.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "How can you render multiple components in React?",
+      "options": [
+        "By using 'ReactDOM.render()'",
+        "By using 'component.renderMany()'",
+        "By creating separate HTML files",
+        "By using 'componentDidMount()'"
+      ],
+      "answer": "By using 'ReactDOM.render()'",
+      "explanation": "'ReactDOM.render()' is used to render multiple components in React into the DOM.",
+      "difficulty": "easy",
+      "points": 10,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "What is the purpose of 'useState()' hook in React?",
+      "options": [
+        "To fetch data from an API",
+        "To manage state in functional components",
+        "To handle routing in React applications",
+        "To create custom hooks"
+      ],
+      "answer": "To manage state in functional components",
+      "explanation": "'useState()' is a hook in React used to add state to functional components.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "What are React keys and why are they important?",
+      "options": [
+        "Unique identifiers for React components",
+        "Reserved keywords in React",
+        "Used for encryption in React",
+        "Used for accessing DOM elements"
+      ],
+      "answer": "Unique identifiers for React components",
+      "explanation": "React keys are used as unique identifiers for elements in arrays, aiding in efficient rendering and updates.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "Explain the concept of conditional rendering in React.",
+      "options": [
+        "Rendering different components based on conditions",
+        "Rendering only when components are mounted",
+        "Rendering components conditionally using loops",
+        "Rendering components with inline styles"
+      ],
+      "answer": "Rendering different components based on conditions",
+      "explanation": "Conditional rendering in React allows displaying different components or content based on certain conditions.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "What is the role of 'useEffect()' hook in React?",
+      "options": [
+        "To handle user authentication",
+        "To manage component state changes",
+        "To perform side effects in functional components",
+        "To create reusable components"
+      ],
+      "answer": "To perform side effects in functional components",
+      "explanation": "'useEffect()' is a hook in React used to perform side effects in functional components.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 2
+    },
+    {
+      "question": "How do you handle forms in React?",
+      "options": [
+        "Using native HTML form elements",
+        "Using 'useState()' hook",
+        "Using 'useForm()' hook",
+        "Using 'useEffect()' hook"
+      ],
+      "answer": "Using native HTML form elements",
+      "explanation": "Forms in React can be handled using native HTML form elements along with state management.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "What is the purpose of 'props.children' in React?",
+      "options": [
+        "To pass data between parent and child components",
+        "To render child components",
+        "To access elements inside a component's opening and closing tags",
+        "To manage component lifecycle"
+      ],
+      "answer": "To access elements inside a component's opening and closing tags",
+      "explanation": "'props.children' is a special prop in React used to access elements passed between a component's tags.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 2
+    },
+    {
+      "question": "What is the purpose of 'useReducer()' hook in React?",
+      "options": [
+        "To manage complex state logic in functional components",
+        "To perform server-side rendering",
+        "To create custom hooks",
+        "To manage routing in React applications"
+      ],
+      "answer": "To manage complex state logic in functional components",
+      "explanation": "'useReducer()' is a hook in React used for managing state in a more complex way than 'useState()'.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "What are React refs used for?",
+      "options": [
+        "To reference components in a DOM",
+        "To handle routing in React applications",
+        "To manage state in functional components",
+        "To perform side effects"
+      ],
+      "answer": "To reference components in a DOM",
+      "explanation": "React refs are used to reference DOM elements or components in React.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "Explain the purpose of React Router.",
+      "options": [
+        "To manage application state",
+        "To handle server-side rendering",
+        "To create reusable components",
+        "To handle navigation and routing in React applications"
+      ],
+      "answer": "To handle navigation and routing in React applications",
+      "explanation": "React Router is used for handling navigation and routing between different views in React applications.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 3
+    },
+    {
+      "question": "What is a higher-order component (HOC) in React?",
+      "options": [
+        "A component nested within another component",
+        "A component that handles form inputs",
+        "A function that takes a component and returns a new component",
+        "A component with multiple states"
+      ],
+      "answer": "A function that takes a component and returns a new component",
+      "explanation": "A higher-order component is a function that takes a component and returns a new enhanced component.",
+      "difficulty": "medium",
+      "points": 15,
+      "category": "React",
+      "correctOption": 2
+    },
+    {
+      "question": "Explain the differences between controlled and uncontrolled components in React.",
+      "options": [
+        "Controlled components are stateless, uncontrolled components are stateful",
+        "Controlled components are managed by React state, uncontrolled components are not",
+        "Controlled components use props, uncontrolled components use refs",
+        "There are no differences between controlled and uncontrolled components"
+      ],
+      "answer": "Controlled components are managed by React state, uncontrolled components are not",
+      "explanation": "Controlled components in React are managed by React state, while uncontrolled components handle their own state.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "What are React Hooks? Explain their usage and advantages.",
+      "options": [
+        "React Hooks are used for authentication in React applications",
+        "React Hooks allow functional components to use state and lifecycle features",
+        "React Hooks are used for styling components",
+        "There are no advantages of using React Hooks"
+      ],
+      "answer": "React Hooks allow functional components to use state and lifecycle features",
+      "explanation": "React Hooks are functions that let you use state and other React features in functional components.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "Explain the purpose of React Context API and when to use it.",
+      "options": [
+        "To handle authentication in React applications",
+        "To manage global state and avoid prop drilling",
+        "To create reusable components",
+        "To handle server-side rendering"
+      ],
+      "answer": "To manage global state and avoid prop drilling",
+      "explanation": "React Context API is used for managing global state across components without passing props manually.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "What are the differences between 'useEffect()' and 'componentDidMount()' in React?",
+      "options": [
+        "'useEffect()' is used in class components, 'componentDidMount()' in functional components",
+        "'useEffect()' replaces 'componentDidMount()' in class components",
+        "'useEffect()' handles lifecycle events, 'componentDidMount()' handles state changes",
+        "'componentDidMount()' is deprecated, 'useEffect()' is the updated version"
+      ],
+      "answer": "'useEffect()' replaces 'componentDidMount()' in class components",
+      "explanation": "'useEffect()' is the equivalent of 'componentDidMount()' and other lifecycle methods in functional components.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "What are React Fragments and why are they used?",
+      "options": [
+        "React Fragments are used for animation in React components",
+        "React Fragments are used to avoid using divs to wrap multiple elements",
+        "React Fragments are used for routing in React applications",
+        "React Fragments are used for conditional rendering"
+      ],
+      "answer": "React Fragments are used to avoid using divs to wrap multiple elements",
+      "explanation": "React Fragments allow grouping multiple elements without adding extra nodes to the DOM.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 1
+    },
+    {
+      "question": "Explain the concept of React portals and their usage.",
+      "options": [
+        "React portals are used for handling events in React components",
+        "React portals are used for component styling",
+        "React portals allow rendering children in a different DOM node",
+        "React portals allow conditional rendering"
+      ],
+      "answer": "React portals allow rendering children in a different DOM node",
+      "explanation": "React portals enable rendering children in a DOM node outside the parent hierarchy.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 2
+    },
+    {
+      "question": "What are Higher-Order Components (HOCs) in React?",
+      "options": [
+        "Components rendered higher in the DOM hierarchy",
+        "Components with multiple states",
+        "Components that return another component",
+        "Components that handle lifecycle methods"
+      ],
+      "answer": "Components that return another component",
+      "explanation": "Higher-Order Components are functions that take a component and return a new enhanced component.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 2
+    },
+    {
+      "question": "Explain the concept of PureComponent in React and its advantages.",
+      "options": [
+        "PureComponent prevents components from re-rendering",
+        "PureComponent is used for routing in React applications",
+        "PureComponent ensures props are immutable",
+        "There are no advantages of using PureComponent"
+      ],
+      "answer": "PureComponent prevents components from re-rendering",
+      "explanation": "PureComponent in React performs a shallow comparison of props and prevents unnecessary re-renders.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 0
+    },
+    {
+      "question": "What is the purpose of React.memo() and when is it used?",
+      "options": [
+        "To handle context API in React",
+        "To memoize functions in React applications",
+        "To prevent unnecessary re-renders of functional components",
+        "To manage state in class components"
+      ],
+      "answer": "To prevent unnecessary re-renders of functional components",
+      "explanation": "React.memo() is used to memoize functional components to prevent re-renders on prop changes.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 2
+    },
+    {
+      "question": "Explain the concept of error boundaries in React and their usage.",
+      "options": [
+        "Error boundaries handle routing errors in React",
+        "Error boundaries handle errors in asynchronous code",
+        "Error boundaries are components that catch JavaScript errors anywhere in their child component tree",
+        "Error boundaries are used for conditional rendering"
+      ],
+      "answer": "Error boundaries are components that catch JavaScript errors anywhere in their child component tree",
+      "explanation": "Error boundaries in React catch errors during rendering, in lifecycle methods, and in constructors of the whole component tree.",
+      "difficulty": "hard",
+      "points": 20,
+      "category": "React",
+      "correctOption": 2
+    }
+  ]
+}
