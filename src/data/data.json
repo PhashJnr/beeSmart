@@ -187,7 +187,7 @@
       "answer": "A function's ability to access and remember its outer function's scope even after the outer function finishes executing",
       "explanation": "Closures allow functions to retain access to their outer scope's variables even after execution.",
       "difficulty": "hard",
-      "points": "20",
+      "points": 20,
       "category": "JavaScript",
       "correctOption": 0
     },

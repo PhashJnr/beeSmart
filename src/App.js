@@ -93,6 +93,28 @@ function reducer(state, action) {
         secondsRemaining: state.secondsRemaining - 1,
         status: state.secondsRemaining === 0 ? "finished" : state.status,
       };
+    case "restart":
+      return {
+        ...state,
+        status: "ready",
+        answer: null,
+        points: 0,
+        category: "",
+        difficulty: "",
+        index: 0,
+        filteredQuestions: [],
+        secondsRemaining: null,
+      };
+    case "reset":
+      return {
+        ...state,
+        answer: null,
+        points: 0,
+        status: "ready",
+        index: 0,
+        highscore: 0,
+        secondsRemaining: null,
+      };
     default:
       throw new Error(`Unhandled action type: ${action.type}`);
   }
