@@ -12,9 +12,6 @@ function Question({
     return <div>Loading...</div>; // Or some appropriate loading state or error message
   }
 
-  console.log("QuestionComp", filteredQuestions.question);
-  console.log("index", index);
-  console.log("numberofQuestion", numQuestions);
   return (
     <div className="">
       <progress
@@ -23,9 +20,11 @@ function Question({
         value={index + Number(answer !== null)}
       />
       <div className="flex justify-between">
-        <h1 className="text-[1.3rem] text-textColor ">Question {index + 1} </h1>
+        <h1 className="text-[1.3rem] text-textColor my-3 ">
+          Question {index + 1}{" "}
+        </h1>
 
-        <strong className="text-[1.3rem] text-textColor ">
+        <strong className="text-[1.3rem] text-textColor my-3 ">
           Current point: {points}
         </strong>
       </div>

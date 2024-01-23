@@ -12,8 +12,6 @@ import "./App.css";
 import { useEffect, useReducer } from "react";
 import NextButton from "./components/NextButton";
 
-// import { useState } from "react";
-
 const SECS_PER_QUESTION = 30;
 
 const initialState = {
@@ -31,7 +29,6 @@ const initialState = {
 };
 
 function reducer(state, action) {
-  console.log("action", action, "state", state);
   switch (action.type) {
     case "dataLoaded":
       return { ...state, questions: action.payload, status: "ready" };
@@ -121,8 +118,6 @@ function reducer(state, action) {
 }
 
 function App() {
-  // console.log(questions);
-
   const [state, dispatch] = useReducer(reducer, initialState);
   const {
     status,
@@ -135,30 +130,12 @@ function App() {
     highscore,
     secondsRemaining,
   } = state;
-  // console.log("state", questions);
-  console.log("points", points);
-  console.log("answer", answer);
+
   const numQuestions = filteredQuestions.length;
   const maxPossiblePoints = filteredQuestions.reduce(
     (prev, cur) => prev + cur.points,
     0
   );
-  console.log("secondRemaining", secondsRemaining);
-  console.log("logSecs", secondsRemaining * 30);
-
-  // console.log("answer", answer);
-  console.log("filteredQuestions", filteredQuestions);
-
-  /*
-  const filQuest = questions.filter(
-    (question) =>
-      question.difficulty === difficulty && question.category === category
-  );
-  console.log("filterquestion", filQuest);
-  console.log("difficulty", difficulty);
-  console.log("category", category);
-
-  */
 
   useEffect(() => {
     async function fetchData() {
@@ -185,7 +162,7 @@ function App() {
 
   return (
     <div className="p-5">
-      <div className="mx-auto max-w-[800px] mt-[5rem] p-6 bg-[#354A97] rounded-[12px] shadow-sm shadow-[#354A97] ">
+      <div className="mx-auto max-w-[800px] mt-[5rem] p-6 bg-[#354A97]/[0.9] backdrop-blur-sm rounded-[12px] shadow-sm shadow-[#354A97] ">
         <Header />
         {status === "loading" && <Loader />}
         {status === "error" && <Error />}

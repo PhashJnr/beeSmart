@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Raleway:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -17,7 +17,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #151d3b;
+  background-image: url("/src/img/patternpad-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 code {
@@ -26,7 +30,7 @@ code {
 }
 
 .header {
-  font-family: "Love Ya Like A Sister", cursive;
+  font-family: "Pixelify Sans", sans-serif;
 }
 
 /* .progress {
